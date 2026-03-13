@@ -1,6 +1,5 @@
 from aiogram import Router, F, types
-from app.utils import bot_answers
-from config import BUTTONS
+from app.utils import bot_answers,  BUTTONS
 
 router = Router()
 
@@ -10,3 +9,4 @@ async def close_menu_handler(message: types.Message) -> None:
         bot_answers["stop_text"],
         reply_markup=types.ReplyKeyboardRemove()
     )
+    

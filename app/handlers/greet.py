@@ -1,6 +1,5 @@
 from aiogram import Router, F, types
-from app.utils import bot_answers
-from config import BUTTONS
+from app.utils import bot_answers, BUTTONS
 
 router = Router()
 

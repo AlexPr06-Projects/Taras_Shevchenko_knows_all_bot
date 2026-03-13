@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
-from config import BUTTONS
+from app.utils import BUTTONS
 
 def get_main_keyboard():
     builder = ReplyKeyboardBuilder()
