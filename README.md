@@ -39,7 +39,7 @@
 
 1. Клонуйте репозиторій:
 ```bash
-git clone https://github.com/your-username/taras-prophecy-bot.git
+git clone https://github.com/AlexPr06-Projects/Taras_Shevchenko_knows_all_bot.git
 
 ```
 
