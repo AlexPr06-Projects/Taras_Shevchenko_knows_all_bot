@@ -6,7 +6,7 @@ load_dotenv(find_dotenv())
 
 # Loading configs from .env
 #TODO: Create loading logic
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Directories & Paths
 BASE_DIR = Path(__file__).resolve().parent
